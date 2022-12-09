@@ -1,0 +1,11 @@
+"0","steamdb <- steamdb %>% 
+  pivot_wider()
+"
+"2","Warning: Values from `value` are not uniquely identified; output will contain list-cols.
+* Use `values_fn = list` to suppress this warning.
+* Use `values_fn = {summary_fun}` to summarise duplicates.
+* Use the following dplyr code to identify duplicates.
+  {data} %>%
+    dplyr::group_by(name) %>%
+    dplyr::summarise(n = dplyr::n(), .groups = ""drop"") %>%
+    dplyr::filter(n > 1L)"
