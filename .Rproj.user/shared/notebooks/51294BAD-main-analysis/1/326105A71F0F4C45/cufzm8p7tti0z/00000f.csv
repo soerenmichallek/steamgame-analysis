@@ -1,3 +1,0 @@
-"0","# importing the .json file as a dataframe"
-"0","steamdb_list <- fromJSON(file = ""steamdb.json"")"
-"0","steamdb <- enframe(unlist(steamdb_list))"
